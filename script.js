@@ -14,6 +14,13 @@ subt=num1-num2;
 document.getElementById("result").value=subt;
 }
 
+// division feature added by divisiondev3
+function divi()
+{num1=Number(document.getElementById("num1").value);
+num2=Number(document.getElementById("num2").value);
+divi=num1/num2;
+document.getElementById("result").value=divi;
+}
 
 function clear1()
 {document.getElementById("result").value="";
