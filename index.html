@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<title>simple Calculator</title>
+
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<table cellspacing="0" border="2px" cellpadding="10px">
+<tr>
+	<th colspan="2" align="center">Arithmatic Calculator</th>
+</tr>
+
+<tr>
+	<td align="right">Number1</td>
+	<td><input type="text" id="num1" required placeholder="Enter in number"></td>
+</tr>
+
+<tr>
+	<td align="right">Number2 </td>
+	<td><input type="text" id="num2" required placeholder="Enter in number" ></td>
+</tr>
+
+
+<tr>
+	<td align="right">Result</td>
+	<td><input type="number" id="result" disabled ></td>
+</tr>
+
+<tr>
+	<th colspan="2" align="center"><input type="button" value="+"  onClick="add()"> 
+                                       <input type="button" value="-" onClick="subt()">
+                                       <input type="button" value="x" onClick="multi()">
+                                       <input type="button" value="/" onClick="divi()">
+                                       <input type="button" value="clear" onClick="clear1()"></th>
+</tr>
+
+</table>
+
+	
+
+<script src="/script.js"></script>
+</body>
+</html>
